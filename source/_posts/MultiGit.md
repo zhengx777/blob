@@ -72,8 +72,8 @@ ssh-agent bash
 ssh-add ~/.ssh/id_rsa_work
 ```
 
-- 配置~/.ssh/config文件
-前面我们在~/.ssh目录下面，使用ssh-keygen -C “your_email” -t rsa 生成公私秘钥，当有多个github账号的时候，可以生成多组rsa的公司密钥。然后配置~/.ssh/config文件（如果没有的话请重新创建一个）。
+- 配置`~/.ssh/config`文件
+前面我们在`~/.ssh`目录下面，使用ssh-keygen -C “your_email” -t rsa 生成公私秘钥，当有多个github账号的时候，可以生成多组rsa的公司密钥。然后配置`~/.ssh/config`文件（如果没有的话请重新创建一个）。
 
 ```
 touch config        # 创建config文件
